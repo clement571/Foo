@@ -8,7 +8,7 @@ GO
 
 ALTER PROCEDURE [dbo].[spdimCanvasAccountLoad]
 AS
-
+--add this comment on 1/23/21
 
 WITH cteCanvasAccount AS (
 	SELECT DISTINCT
