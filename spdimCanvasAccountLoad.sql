@@ -10,6 +10,7 @@ ALTER PROCEDURE [dbo].[spdimCanvasAccountLoad]
 AS
 --add this comment on 1/23/21
 --edit on github 1/23/21
+--edit another on github 1/23/21
 WITH cteCanvasAccount AS (
 	SELECT DISTINCT
 	        CAST(account_dim.id as bigint) AS CanvasSurrogateId,
